@@ -16,9 +16,17 @@ h3 {
   text-align: center;
 }
 
+#about-section{
+  display: flex;
+  }
+
 /* Header */
 header {
-  text-align: center;
+  /* text-align: center; */
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 /* Containers */
@@ -27,6 +35,37 @@ div {
   margin: auto;
   width: 600px;
 }
+
+
+
+.about-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.portfolio-row-item{
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  }
+
+  .portfolio-items{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0px  5px;
+    }
+
+
+  /* #portfolio section {
+    margin-right: 20px;
+  }
+  
+  #portfolio section p {
+    font-size: 14px;
+  } */
 
 article {
   padding: 50px 0;
